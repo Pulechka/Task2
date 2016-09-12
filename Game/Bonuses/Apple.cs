@@ -1,7 +1,7 @@
-﻿namespace Game
+﻿namespace GameTask
 {
-    public sealed class Apple : IBonus
+    public class Apple : Bonus
     {
-        public void Raise() { }
+        public override void Raise() { }
     }
 }

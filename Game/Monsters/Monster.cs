@@ -6,11 +6,9 @@ using System.Threading.Tasks;
 
 namespace GameTask
 {
-    public class Wolf : Monster
+    public class Monster : GameObject, IMovingObject
     {
-        public override void Move()
-        {
-
-        }
+        public virtual void Move() { }
+        public void EatPlayer() { }
     }
 }

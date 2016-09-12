@@ -1,7 +1,7 @@
-﻿namespace Game
+﻿namespace GameTask
 {
-    public sealed class Cherry : IBonus
+    public class Cherry : Bonus
     {
-        public void Raise() { }
+        public override void Raise() { }
     }
 }

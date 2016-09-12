@@ -1,4 +1,4 @@
-﻿namespace Game
+﻿namespace GameTask
 {
     public sealed class Field
     {
@@ -6,6 +6,8 @@
 
         public int Width { get; private set; }
         public int Height { get; private set; }
+        public int BonusCount { get; set; }
+
 
         private Field() { }
 

@@ -4,11 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Game
+namespace GameTask
 {
-    public interface IMonster
+    public class Tree : Obstacle
     {
-        void Move();
-        void Eat();
+
     }
 }

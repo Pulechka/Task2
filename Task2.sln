@@ -17,7 +17,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RingTask", "RingTask\RingTa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VectorGraphicsEditor", "VectorGraphicsEditor\VectorGraphicsEditor.csproj", "{E09E06D7-DBAA-43C5-92AA-7B01DDA4CABC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Game", "Game\Game.csproj", "{1ED7CF3E-EE43-4242-8688-3E14B62EB4A1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameTask", "Game\GameTask.csproj", "{1ED7CF3E-EE43-4242-8688-3E14B62EB4A1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -58,19 +58,28 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Empty.cs" />
+    <Compile Include="Game.cs" />
+    <Compile Include="GameObject.cs" />
+    <Compile Include="IMovingObject.cs" />
     <Compile Include="Monsters\Bear.cs" />
     <Compile Include="Bonuses\Apple.cs" />
     <Compile Include="Bonuses\Cherry.cs" />
-    <Compile Include="Bonuses\IBonus.cs" />
+    <Compile Include="Bonuses\Bonus.cs" />
     <Compile Include="Field.cs" />
-    <Compile Include="Monsters\IMonster.cs" />
+    <Compile Include="Monsters\Monster.cs" />
+    <Compile Include="Obstacle\Obstacle.cs" />
+    <Compile Include="Player.cs" />
     <Compile Include="Point.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Monsters\Wolf.cs" />
+    <Compile Include="Obstacle\Stown.cs" />
+    <Compile Include="Obstacle\Tree.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="ClassDiagram.cd" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">

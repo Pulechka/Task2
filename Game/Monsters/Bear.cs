@@ -4,16 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Game
+namespace GameTask
 {
-    public class Bear : IMonster
+    public class Bear : Monster
     {
-        public void Eat()
-        {
-
-        }
-
-        public void Move()
+        public override void Move()
         {
 
         }
