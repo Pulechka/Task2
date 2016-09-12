@@ -1,4 +1,4 @@
-﻿namespace RoundTask
+﻿namespace RingTask
 {
     public class Point
     {

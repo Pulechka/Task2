@@ -1,10 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace RoundTask
+namespace RingTask
 {
     public class Round
     {
@@ -46,7 +42,7 @@ namespace RoundTask
             Center = new Point(x, y);
         }
 
-        public double Сircumference => 2 * Math.PI * radius;
+        public double Circumference => 2 * Math.PI * radius;
 
         public double Area => Math.PI * radius * radius;
 

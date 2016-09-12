@@ -1,12 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace RoundTask
+namespace VectorGraphicsEditor
 {
-    public class Round
+    public class Round : Figure
     {
         private double radius;
 
@@ -46,13 +42,18 @@ namespace RoundTask
             Center = new Point(x, y);
         }
 
-        public double Сircumference => 2 * Math.PI * radius;
+        public double Circumference => 2 * Math.PI * radius;
 
         public double Area => Math.PI * radius * radius;
 
-        public void Print()
+        public override void Print()
         {
-            Console.WriteLine($"Radius is {Radius}, center in {Center}");
+            Console.WriteLine("Figure ROUND");
+            Console.WriteLine("Center: " + Center);
+            Console.WriteLine("Radius: {0:.##}", radius);
+            Console.WriteLine("Circumference: {0:.##}", Circumference);
+            Console.WriteLine("Area: {0:.##}", Area);
+            Console.WriteLine();
         }
     }
 }

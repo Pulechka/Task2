@@ -21,7 +21,7 @@ namespace EmployeeTask
 
         public string Name
         {
-            get { return name+"dfef"; }
+            get { return name; }
             set
             {
                 if (string.IsNullOrWhiteSpace(value))

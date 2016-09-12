@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyStringTask", "MyStringTas
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeTask", "EmployeeTask\EmployeeTask.csproj", "{B742324E-5B12-4245-BB86-7994ED851330}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RingTask", "RingTask\RingTask.csproj", "{7EF44BFF-1D64-40B5-A16C-385EB23DDAE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VectorGraphicsEditor", "VectorGraphicsEditor\VectorGraphicsEditor.csproj", "{E09E06D7-DBAA-43C5-92AA-7B01DDA4CABC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{B742324E-5B12-4245-BB86-7994ED851330}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B742324E-5B12-4245-BB86-7994ED851330}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B742324E-5B12-4245-BB86-7994ED851330}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EF44BFF-1D64-40B5-A16C-385EB23DDAE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EF44BFF-1D64-40B5-A16C-385EB23DDAE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EF44BFF-1D64-40B5-A16C-385EB23DDAE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EF44BFF-1D64-40B5-A16C-385EB23DDAE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E09E06D7-DBAA-43C5-92AA-7B01DDA4CABC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E09E06D7-DBAA-43C5-92AA-7B01DDA4CABC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E09E06D7-DBAA-43C5-92AA-7B01DDA4CABC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E09E06D7-DBAA-43C5-92AA-7B01DDA4CABC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
