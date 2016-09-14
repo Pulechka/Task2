@@ -9,6 +9,7 @@ namespace EmployeeTask
     public class Employee : User
     {
         private int workExperience;
+        private string post;
 
         public int WorkExperience
         {
@@ -21,7 +22,16 @@ namespace EmployeeTask
             }
         }
 
-        public string Post { get; set; }
+        public string Post
+        {
+            get { return post; }
+            set
+            {
+                if (string.IsNullOrWhiteSpace(value))
+                    throw new ArgumentException("Invalid post");
+                post = value;
+            }
+        }
 
         public Employee()
             : base() { }
@@ -37,7 +47,7 @@ namespace EmployeeTask
         {
             base.Show();
             Console.WriteLine($"Work experience (years): {workExperience}");
-            Console.WriteLine("Post: " + Post);
+            Console.WriteLine($"Post: {Post}");
         }
 
         private const int minAgeForWork = 14;
