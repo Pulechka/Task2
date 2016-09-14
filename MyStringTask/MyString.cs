@@ -114,6 +114,12 @@
         }
 
 
+        public char this[int index]
+        {
+            get { return myString[index]; }
+        }
+
+
         public static char[] ConvertToCharArray(MyString str)
         {
             return str.myString;

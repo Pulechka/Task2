@@ -37,6 +37,9 @@ namespace MyStringTask
 
             str5 = MyString.ConvertFromCharArray(chArray);
             Console.WriteLine(str5);
+            Console.WriteLine();
+
+            Console.WriteLine("str5[5] = "+str5[5]);
         }
     }
 }
