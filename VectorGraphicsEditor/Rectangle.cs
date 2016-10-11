@@ -2,7 +2,7 @@
 
 namespace VectorGraphicsEditor
 {
-    public class Rectangle : Figure
+    public class Rectangle : IDrawable, IFigure
     {
         private double width;
         private double height;
@@ -38,7 +38,7 @@ namespace VectorGraphicsEditor
             LowerLeftPoint = lowerLeftPoint;
         }
 
-        public override void Print()
+        public void Draw()
         {
             Console.WriteLine("Figure RECTANGLE");
             Console.WriteLine("Width: " + width);

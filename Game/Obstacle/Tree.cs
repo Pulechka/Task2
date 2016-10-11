@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace GameTask
 {
-    public class Tree : Obstacle
+    public class Tree : GameObject
     {
 
     }

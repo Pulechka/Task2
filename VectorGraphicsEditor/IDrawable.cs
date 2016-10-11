@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GameTask
+namespace VectorGraphicsEditor
 {
-    public class Obstacle : GameObject
+    interface IDrawable
     {
-
+        void Draw();
     }
 }

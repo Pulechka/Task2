@@ -2,7 +2,7 @@
 
 namespace VectorGraphicsEditor
 {
-    public class Circle : Figure
+    public class Circle : IDrawable
     {
         private double radius;
 
@@ -30,7 +30,7 @@ namespace VectorGraphicsEditor
 
         public double Circumference => 2 * Math.PI * radius;
 
-        public override void Print()
+        public void Draw()
         {
             Console.WriteLine("Figure CIRCLE");
             Console.WriteLine("Center: " + Center);

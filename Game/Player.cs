@@ -6,8 +6,28 @@ using System.Threading.Tasks;
 
 namespace GameTask
 {
-    public sealed class Player : GameObject, IMovingObject
+    public sealed class Player : GameObject, IMovable
     {
-        public void Move() { }
+        int Health { get; set; }
+        
+        public void MoveDown()
+        {
+            throw new NotImplementedException();
+        }
+
+        public void MoveLeft()
+        {
+            throw new NotImplementedException();
+        }
+
+        public void MoveRight()
+        {
+            throw new NotImplementedException();
+        }
+
+        public void MoveUp()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

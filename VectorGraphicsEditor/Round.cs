@@ -2,7 +2,7 @@
 
 namespace VectorGraphicsEditor
 {
-    public class Round : Figure
+    public class Round : IDrawable, IFigure
     {
         private double radius;
 
@@ -46,7 +46,7 @@ namespace VectorGraphicsEditor
 
         public double Area => Math.PI * radius * radius;
 
-        public override void Print()
+        public void Draw()
         {
             Console.WriteLine("Figure ROUND");
             Console.WriteLine("Center: " + Center);

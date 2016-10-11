@@ -2,7 +2,7 @@
 
 namespace VectorGraphicsEditor
 {
-    public class Line : Figure
+    public class Line : IDrawable
     {
         private Point startPoint;
         private Point endPont;
@@ -37,7 +37,7 @@ namespace VectorGraphicsEditor
             EndPoint = endPoint;
         }
 
-        public override void Print()
+        public void Draw()
         {
             Console.WriteLine("Figure LINE");
             Console.WriteLine("Start point: " + startPoint);

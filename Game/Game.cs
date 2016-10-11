@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Game
 {
-    public class Game
+    public sealed class Game
     {
         public bool IsAllBonusTaken { get; set; }
 

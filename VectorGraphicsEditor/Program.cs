@@ -10,7 +10,7 @@ namespace VectorGraphicsEditor
     {
         static void Main(string[] args)
         {
-            List<Figure> figures = new List<Figure>();
+            List<IDrawable> figures = new List<IDrawable>();
             figures.Add(new Line(new Point(0, 0), new Point(2, 2)));
             figures.Add(new Circle(3, new Point(0, 2)));
             figures.Add(new Rectangle(5, 6, new Point(1,1)));
@@ -19,7 +19,7 @@ namespace VectorGraphicsEditor
 
             foreach (var figure in figures)
             {
-                figure.Print();
+                figure.Draw();
             }
         }
     }

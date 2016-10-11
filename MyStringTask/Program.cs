@@ -29,17 +29,27 @@ namespace MyStringTask
             Console.WriteLine("str1+str4 = " + str1 + str4);
             Console.WriteLine();
 
-            Console.WriteLine("Index of 'l' in str1 is " + str1.IndexOf('l'));
+            Console.WriteLine("Index of 'l' in str1 is " + str1.FirstIndexOf('l'));
             Console.WriteLine();
 
             MyString str5 = str1 + str2;
             char[] chArray = MyString.ConvertToCharArray(str5);
 
             str5 = MyString.ConvertFromCharArray(chArray);
-            Console.WriteLine(str5);
+            Console.WriteLine("str5 = (str1 + str2).ToCharArray & FromCharArray " + str5);
             Console.WriteLine();
 
             Console.WriteLine("str5[5] = "+str5[5]);
+            Console.WriteLine();
+
+            Console.WriteLine("str5 + 786 is "+ str5+786);
+            Console.WriteLine("777 + str5  is " + 777+str5 );
+
+            str5 = 1000;
+            Console.WriteLine("str5 = 1000 is " + str5);
+
+            int num = (int)str5;
+            Console.WriteLine("int num = (int)str5 = "+ num);
         }
     }
 }

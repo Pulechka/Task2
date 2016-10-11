@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace GameTask
 {
-    public sealed class Empty : GameObject
+    public interface IMonster
     {
+        int Health { get; set; }
+        int Demage { get; set; }
+
+        void MakeDemage();
     }
 }

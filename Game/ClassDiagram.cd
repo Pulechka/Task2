@@ -1,124 +1,137 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ClassDiagram MajorVersion="1" MinorVersion="1">
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
   <Class Name="GameTask.Apple">
-    <Position X="5" Y="4.5" Width="1.5" />
+    <Position X="10" Y="0.5" Width="1.75" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Bonuses\Apple.cs</FileName>
     </TypeIdentifier>
-  </Class>
-  <Class Name="GameTask.Bonus">
-    <Position X="6.25" Y="2.5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAgAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Bonuses\Bonus.cs</FileName>
-    </TypeIdentifier>
+    <Lollipop Position="0.255" />
   </Class>
   <Class Name="GameTask.Cherry">
-    <Position X="7.75" Y="4.5" Width="1.5" />
+    <Position X="10" Y="2.25" Width="1.75" />
+    <InheritanceLine Type="GameTask.GameObject" ManuallyRouted="true" FixedFromPoint="true">
+      <Path>
+        <Point X="8.25" Y="1.938" />
+        <Point X="8.625" Y="1.938" />
+        <Point X="8.625" Y="2.68" />
+        <Point X="10" Y="2.68" />
+      </Path>
+    </InheritanceLine>
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Bonuses\Cherry.cs</FileName>
     </TypeIdentifier>
-  </Class>
-  <Class Name="GameTask.Empty">
-    <Position X="9.5" Y="0.5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Empty.cs</FileName>
-    </TypeIdentifier>
+    <Lollipop Position="0.806" />
   </Class>
   <Class Name="GameTask.Field">
-    <Position X="15.25" Y="0.5" Width="1.5" />
+    <Position X="12.5" Y="3.25" Width="2.25" />
     <TypeIdentifier>
       <HashCode>AACAAAAABAAAAAAAAAAAAEAAAAgAAEAAAAAAAAAAAAA=</HashCode>
       <FileName>Field.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="GameTask.GameObject">
-    <Position X="6.25" Y="0.5" Width="1.5" />
+    <Position X="6.75" Y="1.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>GameObject.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="GameTask.Bear">
-    <Position X="9.75" Y="4.5" Width="1.5" />
+    <Position X="8" Y="4" Width="1.75" />
+    <InheritanceLine Type="GameTask.GameObject" ManuallyRouted="true">
+      <Path>
+        <Point X="7.5" Y="2.353" />
+        <Point X="7.5" Y="3.11" />
+        <Point X="8.875" Y="3.11" />
+        <Point X="8.875" Y="4" />
+      </Path>
+    </InheritanceLine>
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAEACAAAAAAIAAAAAAAAAAAAQAAAAAAIQAAAAAAAAAA=</HashCode>
       <FileName>Monsters\Bear.cs</FileName>
     </TypeIdentifier>
-  </Class>
-  <Class Name="GameTask.Monster">
-    <Position X="11" Y="2.5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
-      <FileName>Monsters\Monster.cs</FileName>
-    </TypeIdentifier>
-    <Lollipop Position="0.2" />
+    <Lollipop Position="0.985" />
   </Class>
   <Class Name="GameTask.Wolf">
-    <Position X="12.5" Y="4.5" Width="1.5" />
+    <Position X="6" Y="4" Width="1.75" />
+    <InheritanceLine Type="GameTask.GameObject" ManuallyRouted="true">
+      <Path>
+        <Point X="7.5" Y="2.353" />
+        <Point X="7.5" Y="3.126" />
+        <Point X="6.875" Y="3.126" />
+        <Point X="6.875" Y="4" />
+      </Path>
+    </InheritanceLine>
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAEACAAAAAAIAAAAAAAAAAAAQAAAAAAIQAAAAAAAAAA=</HashCode>
       <FileName>Monsters\Wolf.cs</FileName>
     </TypeIdentifier>
-  </Class>
-  <Class Name="GameTask.Obstacle">
-    <Position X="1.75" Y="2.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Obstacle\Obstacle.cs</FileName>
-    </TypeIdentifier>
+    <Lollipop Position="0.1" />
   </Class>
   <Class Name="GameTask.Stown">
-    <Position X="0.5" Y="4.5" Width="1.5" />
+    <Position X="2.25" Y="3.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Obstacle\Stown.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="GameTask.Tree">
-    <Position X="2.75" Y="4.5" Width="1.5" />
+    <Position X="4" Y="3.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Obstacle\Tree.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="GameTask.Player" BaseTypeListCollapsed="true">
-    <Position X="0.75" Y="0.5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Player.cs</FileName>
-    </TypeIdentifier>
-    <Lollipop Position="0.454" />
-  </Class>
   <Class Name="GameTask.Point">
-    <Position X="13.5" Y="3" Width="1.5" />
+    <Position X="15" Y="7" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYAA=</HashCode>
       <FileName>Point.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="GameTask.Program" Collapsed="true">
-    <Position X="15.25" Y="5.25" Width="1.5" />
+    <Position X="13.25" Y="7.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
       <FileName>Program.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Game.Game">
-    <Position X="13.25" Y="0.5" Width="1.75" />
+    <Position X="12.5" Y="1" Width="2.25" />
     <TypeIdentifier>
       <HashCode>AAAgAAAAASAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAg=</HashCode>
       <FileName>Game.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Interface Name="GameTask.IMovingObject">
-    <Position X="15.25" Y="3.25" Width="1.5" />
+  <Class Name="GameTask.Player">
+    <Position X="3.5" Y="0.5" Width="1.75" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>IMovingObject.cs</FileName>
+      <HashCode>AAEACAAAAAAAAAAAAAAAAAAAAAAAAAAIQAAAAAAAAAA=</HashCode>
+      <FileName>Player.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="GameTask.IMovable">
+    <Position X="0.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAIQAAAAAAAAAA=</HashCode>
+      <FileName>IMovable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="GameTask.IMonster">
+    <Position X="2.25" Y="6.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAIAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IMonster.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="GameTask.IBonus">
+    <Position X="4.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IBonus.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Font Name="Segoe UI" Size="9" />

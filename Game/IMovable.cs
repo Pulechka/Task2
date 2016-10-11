@@ -6,8 +6,11 @@ using System.Threading.Tasks;
 
 namespace GameTask
 {
-    interface IMovingObject
+    interface IMovable
     {
-        void Move();
+        void MoveLeft();
+        void MoveRight();
+        void MoveUp();
+        void MoveDown();
     }
 }

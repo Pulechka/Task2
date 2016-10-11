@@ -2,7 +2,7 @@
 
 namespace VectorGraphicsEditor
 {
-    public class Ring : Figure
+    public class Ring : IDrawable, IFigure
     {
         private Round innerRound;
         private Round outerRound;
@@ -51,7 +51,7 @@ namespace VectorGraphicsEditor
 
         public double Circumference => innerRound.Circumference + outerRound.Circumference;
 
-        public override void Print()
+        public void Draw()
         {
             Console.WriteLine("Figure RING");
             Console.WriteLine("Center: " + Center);

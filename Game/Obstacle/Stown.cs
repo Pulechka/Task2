@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace GameTask
 {
-    public class Stown : Obstacle
+    public class Stown : GameObject
     {
     }
 }

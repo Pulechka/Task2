@@ -58,17 +58,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Empty.cs" />
     <Compile Include="Game.cs" />
     <Compile Include="GameObject.cs" />
-    <Compile Include="IMovingObject.cs" />
+    <Compile Include="IMovable.cs" />
     <Compile Include="Monsters\Bear.cs" />
     <Compile Include="Bonuses\Apple.cs" />
     <Compile Include="Bonuses\Cherry.cs" />
-    <Compile Include="Bonuses\Bonus.cs" />
+    <Compile Include="IBonus.cs" />
     <Compile Include="Field.cs" />
-    <Compile Include="Monsters\Monster.cs" />
-    <Compile Include="Obstacle\Obstacle.cs" />
+    <Compile Include="IMonster.cs" />
     <Compile Include="Player.cs" />
     <Compile Include="Point.cs" />
     <Compile Include="Program.cs" />

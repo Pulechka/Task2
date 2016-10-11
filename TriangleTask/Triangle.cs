@@ -4,21 +4,21 @@ namespace TriangleTask
 {
     public class Triangle
     {
-        private double sideA, sideB, sideC;
+        private double a, b, c;
 
         public double SideA
         {
             get
             {
-                return sideA;
+                return a;
             }
             set
             {
                 if (value < 0)
                     throw new ArgumentException("Side should be bigger 0");
-                if (!IsPossibleTriangle(value, sideB, sideC))
+                if (!IsPossibleTriangle(value, b, c))
                     throw new ArgumentException("Side can'be bigger than sum of two others sides");
-                sideA = value;
+                a = value;
             }
         }
 
@@ -26,15 +26,15 @@ namespace TriangleTask
         {
             get
             {
-                return sideB;
+                return b;
             }
             set
             {
                 if (value < 0)
                     throw new ArgumentException("Side should be bigger 0");
-                if (!IsPossibleTriangle(sideA, value, sideC))
+                if (!IsPossibleTriangle(a, value, c))
                     throw new ArgumentException("Side can'be bigger than sum of two others sides");
-                sideB = value;
+                b = value;
             }
         }
 
@@ -42,15 +42,15 @@ namespace TriangleTask
         {
             get
             {
-                return sideC;
+                return c;
             }
             set
             {
                 if (value < 0)
                     throw new ArgumentException("Side should be bigger 0");
-                if (!IsPossibleTriangle(sideA, sideB, value))
+                if (!IsPossibleTriangle(a, b, value))
                     throw new ArgumentException("Side can'be bigger than sum of two others sides");
-                sideC = value;
+                c = value;
             }
         }
 
@@ -58,9 +58,9 @@ namespace TriangleTask
         {
             if (!IsPossibleTriangle(a, b, c))
                 throw new ArgumentException("Can't create triangle with these sides");
-            sideA = a;
-            sideB = b;
-            sideC = c;
+            this.a = a;
+            this.b = b;
+            this.c = c;
         }
 
         public static bool IsPossibleTriangle(double a, double b, double c)
@@ -68,17 +68,17 @@ namespace TriangleTask
             return (a < b + c) && (b < a + c) && (c < a + b);
         }
 
-        public double Perimeter => sideA + sideB + sideC;
+        public double Perimeter => a + b + c;
 
         public double GetArea()
         {
             double p = Perimeter / 2;
-            return Math.Sqrt(p * (p - sideA) * (p - sideB) * (p - sideC));
+            return Math.Sqrt(p * (p - a) * (p - b) * (p - c));
         }
 
         public void Print()
         {
-            Console.WriteLine($"Triangle has sides: {sideA}, {sideB}, {sideC}");
+            Console.WriteLine($"Triangle has sides: {a}, {b}, {c}");
         }
     }
 }

@@ -45,9 +45,9 @@ namespace UserTask
         {
             get
             {
-                DateTime nowDate = DateTime.Now;
-                int age = nowDate.Year - birthDate.Year;
-                if (birthDate > nowDate.AddYears(-age))
+                int age = DateTime.Now.Year - birthDate.Year;
+                if (DateTime.Now.Month < birthDate.Month ||
+                    (DateTime.Now.Month == birthDate.Month && DateTime.Now.Day < birthDate.Day))
                     age--;
                 return age;
             }

@@ -1,7 +1,12 @@
-﻿namespace GameTask
+﻿using System;
+
+namespace GameTask
 {
-    public class Apple : Bonus
+    public class Apple : GameObject, IBonus
     {
-        public override void Raise() { }
+        public void AddBonus()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
