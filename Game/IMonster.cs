@@ -8,9 +8,6 @@ namespace GameTask
 {
     public interface IMonster
     {
-        int Health { get; set; }
-        int Demage { get; set; }
-
-        void MakeDemage();
+        void Atack();
     }
 }

@@ -1,16 +1,21 @@
 ﻿namespace GameTask
 {
-    public class Field
+    public sealed class GameField
     {
         private object[,] field;
+        private int BonusCount;
 
-        public int Width { get; private set; }
-        public int Height { get; private set; }
-        public int BonusCount { get; set; }
+        public int Height { get; }
+        public int Width { get; }
 
         public void Create(int width, int height)
         {
-            field = new object[width, height];
+
+        }
+
+        public void FillRandom()
+        {
+
         }
 
     }

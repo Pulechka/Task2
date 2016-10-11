@@ -61,6 +61,7 @@
     <Compile Include="Game.cs" />
     <Compile Include="GameObject.cs" />
     <Compile Include="IMovable.cs" />
+    <Compile Include="Monster.cs" />
     <Compile Include="Monsters\Bear.cs" />
     <Compile Include="Bonuses\Apple.cs" />
     <Compile Include="Bonuses\Cherry.cs" />

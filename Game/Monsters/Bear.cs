@@ -6,55 +6,45 @@ using System.Threading.Tasks;
 
 namespace GameTask
 {
-    public class Bear : GameObject, IMonster, IMovable
+    public class Bear : Monster
     {
-        public int Demage
+        public override int Demage
         {
             get
             {
                 throw new NotImplementedException();
             }
-
-            set
-            {
-                throw new NotImplementedException();
-            }
         }
 
-        public int Health
+        public override int Health
         {
             get
             {
                 throw new NotImplementedException();
             }
-
-            set
-            {
-                throw new NotImplementedException();
-            }
         }
 
-        public void MakeDemage()
+        public override void Atack()
         {
             throw new NotImplementedException();
         }
 
-        public void MoveDown()
+        public override void MoveDown()
         {
             throw new NotImplementedException();
         }
 
-        public void MoveLeft()
+        public override void MoveLeft()
         {
             throw new NotImplementedException();
         }
 
-        public void MoveRight()
+        public override void MoveRight()
         {
             throw new NotImplementedException();
         }
 
-        public void MoveUp()
+        public override void MoveUp()
         {
             throw new NotImplementedException();
         }
